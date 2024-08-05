@@ -117,5 +117,27 @@ BEGIN
   COMMIT;
 END //
 DELIMITER ;
+
+-- se comentarizo lo de abajo para los ejemplos
+-- DROP DATABASE IF EXISTS TIENDA_UNY;
+-- 5 3 2 5
+
+-- SELECT * FROM Productos
+
+-- ID_cliente, ID_producto1, cantidad1, ID_producto2, cantidad2
+
+-- CALL realizar_compra(1, 1, 2, 2, 1);
+
+-- SELECT * FROM Productos
+
+-- CALL realizar_compra(2, 3, 1, 4, 7);
+
+-- SELECT * FROM Productos
+
+-- CALL agregar_stock(2, 10);
+-- SELECT * FROM Productos
+
+-- SELECT * FROM Pedidos
+
   
   
